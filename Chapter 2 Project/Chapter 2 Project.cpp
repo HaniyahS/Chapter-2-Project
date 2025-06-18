@@ -6,7 +6,10 @@ using namespace std;
 
 int main()
 {
+ //Initializing
     double sum1, sum2;
+
+//Calculating and printing results
     sum1 = 16500 * .15;
     cout << "Approx. number of customers who buy 1+ energy drinks a week: " << sum1 << endl;
 
