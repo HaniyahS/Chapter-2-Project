@@ -6,18 +6,14 @@ using namespace std;
 
 int main()
 {
-    double current, sum1, sum2, sum3;
-    
-    cout << "Whats the current level?: ";
-    cin >> current;
+    double distance1, distance2;
 
-    sum1 = (1.5 * 5) + current;
-    cout << "Ocean level after 5 years: " << sum1 << endl;
+    distance1 = (20 * 23.5);
+    distance2 = 20 * 28.9;
 
-    sum2 = (1.5 * 7) + current;
-    cout << "Ocean level after 7 years: " << sum2 << endl;
+    cout << "Distance on 1 full tank of gas in town: " << distance1 << "mi." << endl;
+    cout << "Distance on 1 full tank of gas on the highway: " << distance2 << "mi." << endl;
 
-    sum3 = (1.5 * 10) + current;
-    cout << "Ocean level after 10 years: " << sum3 << endl;
+        
 }
 
