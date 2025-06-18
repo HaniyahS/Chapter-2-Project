@@ -6,18 +6,12 @@ using namespace std;
 
 int main()
 {
-    double current, sum1, sum2, sum3;
+    double sum1, sum2;
+    sum1 = 16500 * .15;
+    cout << "Approx. number of customers who buy 1+ energy drinks a week: " << sum1 << endl;
+
+    sum2 = 16500 * .58;
+    cout << "Approx. number of customers who prefer citrus flavor: " << sum2 << endl;
     
-    cout << "Whats the current level?: ";
-    cin >> current;
-
-    sum1 = (1.5 * 5) + current;
-    cout << "Ocean level after 5 years: " << sum1 << endl;
-
-    sum2 = (1.5 * 7) + current;
-    cout << "Ocean level after 7 years: " << sum2 << endl;
-
-    sum3 = (1.5 * 10) + current;
-    cout << "Ocean level after 10 years: " << sum3 << endl;
 }
 
