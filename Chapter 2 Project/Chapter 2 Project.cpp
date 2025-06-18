@@ -12,7 +12,7 @@ int main()
     distance2 = 20 * 28.9;
 
     cout << "Distance on 1 full tank of gas in town: " << distance1 << "mi." << endl;
-    cout << "Distance on 1 full tank of gas on the highway: " << distance2 << "mi." << endl;
+    cout << "Distance on 1 full tank of gas on the highway " << distance2 << "mi." << endl;
 
         
 }
