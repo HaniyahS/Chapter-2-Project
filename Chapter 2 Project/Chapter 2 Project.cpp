@@ -6,11 +6,14 @@ using namespace std;
 
 int main()
 {
+//Initiating variables
     double current, sum1, sum2, sum3;
-    
+
+//Asking for and defining user input
     cout << "Whats the current level?: ";
     cin >> current;
 
+//Calculating and printing out results
     sum1 = (1.5 * 5) + current;
     cout << "Ocean level after 5 years: " << sum1 << endl;
 
